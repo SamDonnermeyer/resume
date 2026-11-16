@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found · Sam Donnermeyer</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#f9f9f7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0d0d" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="/resume/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/resume/assets/css/site.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <style>
+    .lost { min-height: 100vh; display: grid; place-content: center; gap: 14px; padding: 24px; text-align: center; }
+    .lost h1 { font-size: clamp(1.75rem, 5vw, 2.5rem); letter-spacing: -0.03em; }
+    .lost p { color: var(--ink-2); }
+    .lost .actions { justify-content: center; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <main class="lost">
+    <p class="kicker">404</p>
+    <h1>That page isn't here.</h1>
+    <p>The site is a single page, so everything lives at the link below.</p>
+    <div class="actions"><a class="btn btn-primary" href="/resume/">Go to the site</a></div>
+  </main>
+</body>
+</html>
